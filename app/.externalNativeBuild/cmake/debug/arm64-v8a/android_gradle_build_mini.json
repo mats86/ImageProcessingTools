@@ -1,0 +1,266 @@
+{
+  "buildFiles": [
+    "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\malattas\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "libopencv_highgui-Debug-arm64-v8a": {
+      "artifactName": "libopencv_highgui",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_highgui.so"
+    },
+    "libopencv_imgproc-Debug-arm64-v8a": {
+      "artifactName": "libopencv_imgproc",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_imgproc.so"
+    },
+    "libopencv_shape-Debug-arm64-v8a": {
+      "artifactName": "libopencv_shape",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_shape.so"
+    },
+    "libopencv_tracking-Debug-arm64-v8a": {
+      "artifactName": "libopencv_tracking",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_tracking.so"
+    },
+    "libopencv_reg-Debug-arm64-v8a": {
+      "artifactName": "libopencv_reg",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_reg.so"
+    },
+    "libopencv_ml-Debug-arm64-v8a": {
+      "artifactName": "libopencv_ml",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_ml.so"
+    },
+    "libopencv_aruco-Debug-arm64-v8a": {
+      "artifactName": "libopencv_aruco",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_aruco.so"
+    },
+    "libopencv_java4-Debug-arm64-v8a": {
+      "artifactName": "libopencv_java4",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_java4.so"
+    },
+    "libopencv_ximgproc-Debug-arm64-v8a": {
+      "artifactName": "libopencv_ximgproc",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_ximgproc.so"
+    },
+    "libopencv_plot-Debug-arm64-v8a": {
+      "artifactName": "libopencv_plot",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_plot.so"
+    },
+    "libopencv_features2d-Debug-arm64-v8a": {
+      "artifactName": "libopencv_features2d",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_features2d.so"
+    },
+    "libtess-Debug-arm64-v8a": {
+      "artifactName": "libtess",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\..\\tess-two\\libs\\arm64-v8a\\libtess.so"
+    },
+    "libopencv_flann-Debug-arm64-v8a": {
+      "artifactName": "libopencv_flann",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_flann.so"
+    },
+    "libopencv_photo-Debug-arm64-v8a": {
+      "artifactName": "libopencv_photo",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_photo.so"
+    },
+    "libopencv_dnn-Debug-arm64-v8a": {
+      "artifactName": "libopencv_dnn",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_dnn.so"
+    },
+    "libopencv_phase_unwrapping-Debug-arm64-v8a": {
+      "artifactName": "libopencv_phase_unwrapping",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_phase_unwrapping.so"
+    },
+    "libopencv_dnn_objdetect-Debug-arm64-v8a": {
+      "artifactName": "libopencv_dnn_objdetect",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_dnn_objdetect.so"
+    },
+    "libjpgt-Debug-arm64-v8a": {
+      "artifactName": "libjpgt",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\..\\tess-two\\libs\\arm64-v8a\\libjpgt.so"
+    },
+    "libopencv_fuzzy-Debug-arm64-v8a": {
+      "artifactName": "libopencv_fuzzy",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_fuzzy.so"
+    },
+    "libopencv_xphoto-Debug-arm64-v8a": {
+      "artifactName": "libopencv_xphoto",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_xphoto.so"
+    },
+    "libopencv_videoio-Debug-arm64-v8a": {
+      "artifactName": "libopencv_videoio",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_videoio.so"
+    },
+    "libopencv_bgsegm-Debug-arm64-v8a": {
+      "artifactName": "libopencv_bgsegm",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_bgsegm.so"
+    },
+    "native-lib-Debug-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Users\\malattas\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libnative-lib.so"
+    },
+    "libopencv_line_descriptor-Debug-arm64-v8a": {
+      "artifactName": "libopencv_line_descriptor",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_line_descriptor.so"
+    },
+    "libopencv_saliency-Debug-arm64-v8a": {
+      "artifactName": "libopencv_saliency",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_saliency.so"
+    },
+    "libopencv_surface_matching-Debug-arm64-v8a": {
+      "artifactName": "libopencv_surface_matching",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_surface_matching.so"
+    },
+    "libc++_shared-Debug-arm64-v8a": {
+      "artifactName": "libc++_shared",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\..\\tess-two\\libs\\arm64-v8a\\libc++_shared.so"
+    },
+    "libopencv_hfs-Debug-arm64-v8a": {
+      "artifactName": "libopencv_hfs",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_hfs.so"
+    },
+    "libopencv_bioinspired-Debug-arm64-v8a": {
+      "artifactName": "libopencv_bioinspired",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_bioinspired.so"
+    },
+    "libopencv_superres-Debug-arm64-v8a": {
+      "artifactName": "libopencv_superres",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_superres.so"
+    },
+    "libopencv_stereo-Debug-arm64-v8a": {
+      "artifactName": "libopencv_stereo",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_stereo.so"
+    },
+    "libopencv_face-Debug-arm64-v8a": {
+      "artifactName": "libopencv_face",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_face.so"
+    },
+    "libopencv_stitching-Debug-arm64-v8a": {
+      "artifactName": "libopencv_stitching",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_stitching.so"
+    },
+    "libopencv_text-Debug-arm64-v8a": {
+      "artifactName": "libopencv_text",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_text.so"
+    },
+    "libopencv_structured_light-Debug-arm64-v8a": {
+      "artifactName": "libopencv_structured_light",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_structured_light.so"
+    },
+    "libopencv_calib3d-Debug-arm64-v8a": {
+      "artifactName": "libopencv_calib3d",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_calib3d.so"
+    },
+    "libopencv_objdetect-Debug-arm64-v8a": {
+      "artifactName": "libopencv_objdetect",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_objdetect.so"
+    },
+    "libopencv_rgbd-Debug-arm64-v8a": {
+      "artifactName": "libopencv_rgbd",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_rgbd.so"
+    },
+    "liblept-Debug-arm64-v8a": {
+      "artifactName": "liblept",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\..\\tess-two\\libs\\arm64-v8a\\liblept.so"
+    },
+    "libopencv_core-Debug-arm64-v8a": {
+      "artifactName": "libopencv_core",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_core.so"
+    },
+    "libopencv_ccalib-Debug-arm64-v8a": {
+      "artifactName": "libopencv_ccalib",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_ccalib.so"
+    },
+    "libopencv_xfeatures2d-Debug-arm64-v8a": {
+      "artifactName": "libopencv_xfeatures2d",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_xfeatures2d.so"
+    },
+    "libopencv_dpm-Debug-arm64-v8a": {
+      "artifactName": "libopencv_dpm",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_dpm.so"
+    },
+    "libopencv_imgcodecs-Debug-arm64-v8a": {
+      "artifactName": "libopencv_imgcodecs",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_imgcodecs.so"
+    },
+    "libopencv_optflow-Debug-arm64-v8a": {
+      "artifactName": "libopencv_optflow",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_optflow.so"
+    },
+    "libopencv_datasets-Debug-arm64-v8a": {
+      "artifactName": "libopencv_datasets",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_datasets.so"
+    },
+    "libopencv_videostab-Debug-arm64-v8a": {
+      "artifactName": "libopencv_videostab",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_videostab.so"
+    },
+    "libopencv_xobjdetect-Debug-arm64-v8a": {
+      "artifactName": "libopencv_xobjdetect",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_xobjdetect.so"
+    },
+    "libopencv_video-Debug-arm64-v8a": {
+      "artifactName": "libopencv_video",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_video.so"
+    },
+    "libopencv_img_hash-Debug-arm64-v8a": {
+      "artifactName": "libopencv_img_hash",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\src\\main\\jniLibs\\arm64-v8a\\libopencv_img_hash.so"
+    },
+    "libpngt-Debug-arm64-v8a": {
+      "artifactName": "libpngt",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\ImageProcessingTools\\app\\..\\tess-two\\libs\\arm64-v8a\\libpngt.so"
+    }
+  }
+}

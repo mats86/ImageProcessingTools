@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/com.app.chasebank"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:animateLayoutChanges="true">
+
+    <data>
+        <variable
+            name="FabHandler"
+            type="com.example.malattas.imageprocessingtools.TrackingColorActivity.FabHandler"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/trackingColorLayout"
+        tools:context=".TrackingColorActivity">
+
+        <com.example.malattas.imageprocessingtools.MyOpenCvView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:id="@+id/trackingColorSurfView"/>
+
+        <org.opencv.android.JavaCameraView
+            android:id="@+id/trackingColorView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fabLayout">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabTackPicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                app:fabSize="normal"
+                android:onClick="@{FabHandler::onPictureTakenClick}"
+                android:backgroundTint="@color/colorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                app:borderWidth="0dp"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/fabTackPicture"
+                android:layout_marginEnd="24dp"
+                android:onClick="@{FabHandler::onColorFabClick}"
+                app:backgroundTint="@color/colorRed"
+                app:fabSize="normal" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="80dp"
+                android:layout_marginEnd="33dp"
+                android:visibility="visible"
+                android:onClick="@{FabHandler::onRedFabClick}"
+                app:backgroundTint="@color/colorRed"
+                app:fabSize="mini" />
+
+            <android.support.design.widget.FloatingActionButton
+
+                android:id="@+id/fabGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="128dp"
+                android:layout_marginEnd="33dp"
+                android:visibility="visible"
+                android:onClick="@{FabHandler::onGreenFabClick}"
+                app:backgroundTint="@color/colorGreen"
+                app:fabSize="mini" />
+
+            <android.support.design.widget.FloatingActionButton
+
+                android:id="@+id/fabBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="176dp"
+                android:layout_marginEnd="33dp"
+                android:visibility="visible"
+                android:onClick="@{FabHandler::onBlueFabClick}"
+                app:backgroundTint="@color/colorBlue"
+                app:fabSize="mini" />
+
+            <android.support.design.widget.FloatingActionButton
+
+                android:id="@+id/fabOrange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="224dp"
+                android:layout_marginEnd="33dp"
+                android:visibility="visible"
+                android:onClick="@{FabHandler::onOrangeFabClick}"
+                app:backgroundTint="@color/colorOrange"
+                app:fabSize="mini" />
+
+            <android.support.design.widget.FloatingActionButton
+
+                android:id="@+id/fabYellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="272dp"
+                android:layout_marginEnd="33dp"
+                android:visibility="visible"
+                android:onClick="@{FabHandler::onYellowFabClick}"
+                app:backgroundTint="@color/colorYellow"
+                app:fabSize="mini" />
+
+            <android.support.design.widget.FloatingActionButton
+
+                android:id="@+id/fabGray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="320dp"
+                android:layout_marginEnd="33dp"
+                android:visibility="visible"
+                android:onClick="@{FabHandler::onGrayFabClick}"
+                app:backgroundTint="@color/colorGray"
+                app:fabSize="mini" />
+
+
+        </RelativeLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</layout>

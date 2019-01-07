@@ -1,0 +1,5 @@
+# ninja log v5
+0	1607	0	CMakeFiles/native-lib.dir/src/main/cpp/trackingColor_lib.cpp.o	f772222e1947a898
+3	1689	0	CMakeFiles/native-lib.dir/src/main/cpp/decodeFunction.cpp.o	2d502d899c44acbe
+5	1778	0	CMakeFiles/native-lib.dir/src/main/cpp/textRecognition_lib.cpp.o	8a1e0c442446c8a8
+1779	1964	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	6cca028fa9768a66
